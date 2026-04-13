@@ -11,13 +11,8 @@ export const Navbar: React.FC = () => {
         <div className="flex justify-between items-center h-20">
           
           {/* Logo */}
-          <div className="flex-shrink-0 flex items-center gap-2 cursor-pointer">
-            <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center text-white font-bold text-xl font-hand">
-              E
-            </div>
-            <span className="font-bold text-2xl tracking-tight text-textPrimary">
-              Edu<span className="text-primary">Connect</span>
-            </span>
+          <div className="flex-shrink-0 flex items-center cursor-pointer">
+            <img src="/assets/logo.png" alt="EduConnect Logo" className="h-10 w-auto" />
           </div>
 
           {/* Desktop Menu */}
