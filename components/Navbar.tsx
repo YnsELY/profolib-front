@@ -31,9 +31,11 @@ export const Navbar: React.FC = () => {
             <a href="#advantages" className="text-gray-600 hover:text-primary font-medium transition-colors">
               Avantages
             </a>
-            <Button variant="outline" size="sm">
-              Connexion
-            </Button>
+            <a href="https://app.profolib.fr" target="_blank" rel="noopener noreferrer">
+              <Button variant="outline" size="sm">
+                Connexion
+              </Button>
+            </a>
           </div>
 
           {/* Mobile menu button */}
