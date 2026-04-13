@@ -34,7 +34,7 @@ export const DashboardPreview: React.FC = () => {
               <span className="text-accent">votre réussite scolaire</span>
             </h2>
             <p className="text-blue-50 text-lg mb-8 leading-relaxed font-medium opacity-90">
-              Dites adieu aux échanges dispersés. Avec <strong>EduConnect</strong>, gérez vos cours, consultez votre agenda et mesurez votre progression depuis une interface unique. L'organisation ne sera plus jamais un obstacle à votre réussite.
+              Dites adieu aux échanges dispersés. Avec <strong>Profolib</strong>, gérez vos cours, consultez votre agenda et mesurez votre progression depuis une interface unique. L'organisation ne sera plus jamais un obstacle à votre réussite.
             </p>
             
             <div className="flex flex-wrap items-center gap-6 mb-16">

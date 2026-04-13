@@ -8,7 +8,7 @@ export const Features: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-textPrimary mb-4">Pourquoi nous choisir ?</h2>
           <p className="text-gray-600 max-w-2xl mx-auto text-lg">
-            Les avantages EduConnect : une expérience d'apprentissage repensée pour vos besoins.
+            Les avantages Profolib : une expérience d'apprentissage repensée pour vos besoins.
           </p>
         </div>
 

@@ -19,7 +19,7 @@ export const InstantConnectionDemo: React.FC = () => {
               <span className="text-primary">quand vous en avez besoin</span>
             </h2>
             <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-              Fini les blocages sur les devoirs. Avec EduConnect, un professeur est toujours disponible pour vous débloquer et vous expliquer ce que vous ne comprenez pas.
+              Fini les blocages sur les devoirs. Avec Profolib, un professeur est toujours disponible pour vous débloquer et vous expliquer ce que vous ne comprenez pas.
             </p>
             <ul className="space-y-4 mb-8">
               {[

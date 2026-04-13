@@ -9,14 +9,14 @@ export const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center text-white font-bold text-sm font-hand">E</div>
-              <span className="font-bold text-xl text-textPrimary">EduConnect</span>
+              <span className="font-bold text-xl text-textPrimary">Profolib</span>
             </div>
             <p className="text-sm text-gray-500 leading-relaxed mb-4">
               La plateforme qui connecte instantanément les élèves avec des professeurs qualifiés pour des cours particuliers en visio. Aide immédiate, résultats concrets.
             </p>
             <div className="text-sm text-gray-500">
                <p>Paris, France</p>
-               <p>contact@educonnect.fr</p>
+               <p>contact@profolib.fr</p>
                <p>01 23 45 67 89</p>
             </div>
           </div>
@@ -57,7 +57,7 @@ export const Footer: React.FC = () => {
         </div>
 
         <div className="border-t border-gray-200 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
-          <p>&copy; 2026 EduConnect. Tous droits réservés.</p>
+          <p>&copy; 2026 Profolib. Tous droits réservés.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="hover:text-gray-600">Confidentialité</a>
             <a href="#" className="hover:text-gray-600">Cookies</a>

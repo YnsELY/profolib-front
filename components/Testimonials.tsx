@@ -11,7 +11,7 @@ export const Testimonials: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-textPrimary mb-4">Ils nous font confiance</h2>
-          <p className="text-gray-600 text-lg">Découvrez ce que nos utilisateurs pensent d'EduConnect</p>
+          <p className="text-gray-600 text-lg">Découvrez ce que nos utilisateurs pensent de Profolib</p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">

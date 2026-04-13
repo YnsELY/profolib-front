@@ -14,7 +14,7 @@ export const CallToAction: React.FC = () => {
           Prêt à commencer ?
         </h2>
         <p className="text-blue-100 text-lg md:text-xl mb-10 max-w-2xl mx-auto">
-          Rejoignez la communauté EduConnect et transformez votre façon d'apprendre ou d'enseigner.
+          Rejoignez la communauté Profolib et transformez votre façon d'apprendre ou d'enseigner.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Button variant="secondary" size="lg" className="w-full sm:w-auto font-bold h-14 px-8">

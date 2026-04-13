@@ -13,7 +13,7 @@ export const Navbar: React.FC = () => {
 
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center cursor-pointer">
-            <img src={logo} alt="EduConnect Logo" className="h-10 w-auto" />
+            <img src={logo} alt="Profolib Logo" className="h-10 w-auto" />
           </div>
 
           {/* Desktop Menu */}
@@ -59,11 +59,11 @@ export const Navbar: React.FC = () => {
             <a href="#advantages" className="block px-3 py-3 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-50">
               Avantages
             </a>
-            <div className="pt-4">
+            <a href="https://app.profolib.fr" target="_blank" rel="noopener noreferrer" className="block pt-2">
               <Button fullWidth variant="primary">
                 Connexion
               </Button>
-            </div>
+            </a>
           </div>
         </div>
       )}
