@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Button } from './Button';
+import logo from '../assets/logo.png';
 
 export const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,10 +10,10 @@ export const Navbar: React.FC = () => {
     <nav className="sticky top-0 z-50 w-full bg-surface/80 backdrop-blur-md border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          
+
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center cursor-pointer">
-            <img src="/assets/logo.png" alt="EduConnect Logo" className="h-10 w-auto" />
+            <img src={logo} alt="EduConnect Logo" className="h-10 w-auto" />
           </div>
 
           {/* Desktop Menu */}
