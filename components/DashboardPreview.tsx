@@ -38,9 +38,11 @@ export const DashboardPreview: React.FC = () => {
             </p>
             
             <div className="flex flex-wrap items-center gap-6 mb-16">
-              <Button variant="secondary" size="lg" className="shadow-xl shadow-yellow-500/20">
-                Créer mon compte
-              </Button>
+              <a href="https://app.profolib.fr">
+                <Button variant="secondary" size="lg" className="shadow-xl shadow-yellow-500/20">
+                  Créer mon compte
+                </Button>
+              </a>
               
               <div className="flex items-center gap-4">
                 <div className="flex -space-x-3">
