@@ -13,7 +13,7 @@ export const Navbar: React.FC = () => {
 
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center cursor-pointer">
-            <img src={logo} alt="Profolib Logo" className="h-10 w-auto" />
+            <img src={logo} alt="Profolib Logo" className="h-12 md:h-10 w-auto" />
           </div>
 
           {/* Desktop Menu */}
