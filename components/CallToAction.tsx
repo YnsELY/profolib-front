@@ -17,7 +17,7 @@ export const CallToAction: React.FC = () => {
           Rejoignez la communauté Profolib et transformez votre façon d'apprendre ou d'enseigner.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a href="https://app.profolib.fr" className="w-full sm:w-auto inline-block">
+          <a href="https://app.profolib.app/auth" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto inline-block">
             <Button variant="secondary" size="lg" className="w-full sm:w-auto font-bold h-14 px-8">
               Créer mon compte gratuitement
               <ArrowRight size={20} className="ml-2" />

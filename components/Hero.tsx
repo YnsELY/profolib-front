@@ -87,10 +87,12 @@ export const Hero: React.FC = () => {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
-          <Button size="lg" className="w-full sm:w-auto h-14 px-8 text-lg shadow-xl shadow-blue-500/20">
-            Trouver un professeur
-            <ArrowRight className="ml-2 w-5 h-5" />
-          </Button>
+          <a href="https://app.profolib.app/auth" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+            <Button size="lg" className="w-full h-14 px-8 text-lg shadow-xl shadow-blue-500/20">
+              Trouver un professeur
+              <ArrowRight className="ml-2 w-5 h-5" />
+            </Button>
+          </a>
           <Button variant="outline" size="lg" className="w-full sm:w-auto h-14 px-8 text-lg hover:bg-gray-50">
             <GraduationCap className="mr-2 w-5 h-5" />
             Donner des cours

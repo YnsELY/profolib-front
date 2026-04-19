@@ -4,7 +4,7 @@ export const Footer: React.FC = () => {
   return (
     <footer className="bg-gray-50 border-t border-gray-200 pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
@@ -26,18 +26,8 @@ export const Footer: React.FC = () => {
             <ul className="space-y-2 text-sm text-gray-600">
               <li><a href="#" className="hover:text-primary">Accueil</a></li>
               <li><a href="#how-it-works" className="hover:text-primary">Comment ça marche</a></li>
-              <li><a href="#" className="hover:text-primary">Connexion</a></li>
+              <li><a href="https://app.profolib.app/auth" target="_blank" rel="noopener noreferrer" className="hover:text-primary">Connexion</a></li>
               <li><a href="#" className="hover:text-primary">Contact</a></li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="font-bold text-textPrimary mb-4">Aide</h4>
-            <ul className="space-y-2 text-sm text-gray-600">
-              <li><a href="#" className="hover:text-primary">Centre d'aide</a></li>
-              <li><a href="#" className="hover:text-primary">Tarifs</a></li>
-              <li><a href="#" className="hover:text-primary">Support technique</a></li>
-              <li><a href="#" className="hover:text-primary">CGU / Mentions légales</a></li>
             </ul>
           </div>
 
