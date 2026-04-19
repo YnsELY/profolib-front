@@ -26,7 +26,7 @@ export const Footer: React.FC = () => {
             <ul className="space-y-2 text-sm text-gray-600">
               <li><a href="#" className="hover:text-primary">Accueil</a></li>
               <li><a href="#how-it-works" className="hover:text-primary">Comment ça marche</a></li>
-              <li><a href="https://app.profolib.app/auth" target="_blank" rel="noopener noreferrer" className="hover:text-primary">Connexion</a></li>
+              <li><a href="https://app.profolib.app" target="_blank" rel="noopener noreferrer" className="hover:text-primary">Connexion</a></li>
               <li><a href="#" className="hover:text-primary">Contact</a></li>
             </ul>
           </div>
